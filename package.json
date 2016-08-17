@@ -1,0 +1,16 @@
+{
+  "name": "beHappy",
+  "version": "0.0.1",
+  "description": "Be happy",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync start --files \"*, script/*.js, script/**/*.js, build/*, styles/*.css\" --server"
+  },
+  "author": "edouard rabany",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase": "^3.2.1",
+    "request": "^2.74.0",
+    "underscore": "^1.8.3"
+  }
+}
